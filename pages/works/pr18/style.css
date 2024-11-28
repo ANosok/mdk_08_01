@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+}
+.df{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.fd{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+a{
+    color: red
+}
+.yo{
+    display: flex;
+    background: orangered;
+    border-radius: 100px;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    color: azure;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.me{
+    display: flex;
+    background: orangered;
+    border-radius: 100px;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    color: azure;
+    justify-content: center;
+}
+button{
+    display: flex;
+    margin: auto;
+}

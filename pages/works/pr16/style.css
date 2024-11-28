@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: silver;
+    
+}
+
+.logo{
+    display: flex;
+    height: 100px;
+    margin-left: 100px;
+    
+    
+}
+
+.ryt {
+    
+    
+    padding: 100px;
+}
+.ryt img{
+    display: flex;
+    
+    height: 580px;
+}
+.img1{
+    background: url(img/mountin.webp);
+    padding: 100px;
+}
+.vyr{
+    text-align: center;
+    margin: 100px;
+}
+.okna article{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.okna{
+    display: flex;
+    background: white;
+    margin-top: 10px;
+    gap: 10px;
+    justify-content: center;
+    
+}
+.img0 img{
+    width: 200px;
+    height: 100xp;
+}
+.container article{
+    margin: 10PX;
+    width: 800px;
+    height: 400px;
+    
+    background: url(img/париж.jpg);
+    
+}
+.container{
+    gap: 100px;
+    display: flex;
+    background: white;
+    margin-top: 10px;
+
+}
+
+.tope{
+    display: flex;
+    background: white;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.tope li{
+    margin-left: 100px;
+    display: inline-block;
+    margin: 10px;
+    
+}
+header nav li:hover{
+    
+    color: gainsboro;
+}
+.rating > span:before{
+    content: '★';
+}
+.rating > span.active{
+    color: gold;
+}
+
+.arti h1{
+   
+    margin: 100xp;
+    justify-content: center;
+}
+.arti{
+    display: flex;
+    background: white;
+    margin-top: 10px;
+    padding: 20px;
+    justify-content: center;
+}
+
+
+.ned{
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+}
+.podv {
+    display: flex;
+    margin-left: 200px;
+    gap: 10px;
+}
+form{
+    margin: 0 auto;
+    padding: 10px;
+}
+ul{
+    list-style: none;
+}
+
+.massage{
+    
+    font-size: 15px;
+    width: 579px;
+    height: 100px;
+    margin: 5px;
+}
+.fname{
+    
+    font-size: 15px;
+    height: 35px;
+    margin: 5px;
+    width: 280px;
+}
+.lname{
+    
+    font-size: 15px;
+    height: 35px;
+    margin: 5px;
+    width: 280px;
+}
+.email{
+    height: 35px;
+    font-size: 15px;
+    width: 280px;
+    margin: 5px;
+}
+.numb{
+    height: 35px;
+    font-size: 15px;
+    width: 280px;
+    margin: 5px;
+}
+.bet{
+    margin-left: 390px;
+    
+}
+
+
+button{
+    background: aqua;
+    border-radius: 6px;
+    border: none;
+    height: 25px;
+    width: 200px;
+    color: white;
+}
+button:hover{
+    color: black;
+}
+.compa li{
+   margin: 10px;
+   
+}
+.compa p{
+    font-weight: bold;
+   margin: 10px;
+}
+.compa{
+    margin: 50px;
+    display: flex;
+    gap: 100px;
+    vertical-align: top;
+    
+}
+
+footer{
+    background: white;
+    margin-top: 10px;
+    
+}
+.food {
+    display: flex;
+    justify-content: space-between;
+    
+ }
+ .food li{
+     display: inline-block;
+     padding: 30px;
+    
+ }
+ .food p{
+    padding:30px;
+ }
+.buf{
+    margin-left: 45px;
+}
+.Stay {
+    margin-left: 300px;
+}
+.Stay p{
+    display: flex;
+    margin: 10px;
+}
+.here{
+    display: flex;
+    gap: 200px;
+    
+}
+.logos img{
+    
+    width: 40px;
+    border: 1px solid black;
+    border-radius: 60px;
+}
+.logos{
+    display: flex;
+    gap:40px;
+    margin: 10px;
+}
