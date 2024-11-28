@@ -1,3 +1,95 @@
-.pwr{
+body{
+    background: brown;
+}
+.me {
+    display: flex;
+    gap: 10px;
+}
+.prew{
+    width: 500px;
+    height: 500px;
+    background-size: cover;    
+}
+.new1{
+    background: url(../img/scale_1200.jpg);
+    background-size: cover;
+}
+.new2{
+    background: url(../img/127.jpg);
+    background-size: cover;
+}
+.news article{
+    border: 5px solid black;
+    width: 500px;
+    margin: 10px;
+}
+.me .sec{
+    background: url(../img/127.jpg);
+    background-size: cover;
+    margin: 10px;
+    padding: 20px;
+    height: 100px;
+    margin-bottom: 10px;
+    width: 100px;
+    display: inline-block;
     
+}
+.me .sec2{
+    background: url(../img/127.jpg);
+    background-size: cover;
+    margin: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+.me .sec3{
+    background: url(../img/127.jpg);
+    background-size: cover;
+    margin: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+.me h2{
+    text-align: center;
+    margin-top: auto;
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+header{
+    width: 80%;
+    margin:   auto;
+    
+}
+header li a{
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px;
+    
+}
+header li a:hover{
+    color: black;
+
+}
+h1{
+    text-align: center;
+}
+header {
+    background: darkgreen;
+    border-radius: 10px;
+}
+header ul{
+    display: flex;
+    justify-content: center;
 }
