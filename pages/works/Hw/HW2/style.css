@@ -1,0 +1,31 @@
+.gim{
+    border: 5px dashed fuchsia ;
+    margin: 0 auto;
+    display: block;
+}
+li{
+   list-style-type: none;
+}
+ul {
+    text-align: center;
+}
+.down{
+    width: 320px;
+    border-top: 3p solid red;
+}
+hr{
+    border-bottom: 100px;
+}
+a img{
+    margin: 0 auto;
+    display: block;
+}
+h1{
+    text-align: center;
+}
+.per{
+    text-align: center;
+}
+.izve{
+    text-align: center;
+}

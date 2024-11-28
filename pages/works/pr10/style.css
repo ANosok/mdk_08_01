@@ -1,0 +1,84 @@
+body{
+    background: floralwhite;
+}
+h1{
+    text-align: center;
+}
+article img {
+    object-fit: fill;
+    width: 100%;
+    height: 40%;
+    border-radius: 7px;
+}
+article {
+    width: 250px;
+    
+}
+section { 
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    justify-content: center;
+    
+}
+.tex{
+    padding: 110px;
+    text-align: center;
+}
+.podrobno {
+    display: block;
+    margin: 20px auto;
+    border: 1px solid gray;
+    background: whitesmoke;
+    text-align: center;
+    border-radius: 5px;
+    padding: 4px;
+}
+.podrobno:hover{
+    background: wheat;
+    color:black ;
+}
+li{
+    display: inline-block;
+    list-style-type: none;
+}
+li a:hover{
+    background: gray;
+    color:white ;
+}
+ul{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li a {
+    text-decoration: none;
+    color: black;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 13px;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 6px;
+    
+}
+.haus{
+    border: 1px solid black;
+    background: white;
+    border-radius: 10px;
+    
+    
+}
+line{
+    border: 1px;
+    background: gray;
+
+}
+div{
+    padding: 10px;
+}
+.many{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+
+}

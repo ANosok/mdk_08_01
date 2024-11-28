@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+body{
+    background: honeydew;
+}
+section {
+    gap: 10px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+section article{
+    border: 1px solid black;
+    background: white;
+    
+    width: 321px;
+    margin: 50px;
+}
+section article .img{
+    
+    width: 320px;
+    height: 200px;
+    background: url("img/202109030908301751.jpg");
+    background-size: cover;
+    
+    
+}
+.price{
+    text-align: right;
+    margin: 10px;
+}
+.o3{
+    text-decoration: line-through;
+    color: gainsboro;
+    font-size: 12px;
+    
+}
+
+.rating{
+    display: inline-block;
+    font-size: 0;
+    margin-right: 10px;
+}
+.rating span{
+    padding: 0;
+    font-size: 20px;
+    line-height: 1;
+    color: lightgrey;
+    
+}
+.rating > span:before{
+    content: '★';
+}
+.rating > span.active{
+    color: gold;
+    
+}
+
+.ned{
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+}
+p{
+    margin-top: 10px;
+    padding: 10px;
+}
+.gre{
+    color: grey;
+}
+.p11 p{
+    height: 40px;
+}

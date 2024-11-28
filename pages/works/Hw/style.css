@@ -1,0 +1,42 @@
+.corzin{
+    display: block;
+    
+    border: 1px solid gray;
+    background: green;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+}
+section{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+article img{
+    object-fit: fill;
+    width: 100%;
+    height: 60%;
+    margin-bottom: 10px;
+    
+}
+.corzin:hover{
+    background: white;
+    color:black ;
+}
+article{
+    margin-top: 10px;
+    padding: 10px;
+    width: 300px;
+}
+.tovar{
+    border: 1px solid aqua;
+    background: aqua;
+}
+
+.cena{
+    color: red;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    
+}
